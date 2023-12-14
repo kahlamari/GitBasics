@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Git!");
+        for (int i = 3; i > 0; i--) {
+            System.out.println("Hello Git!" + i);
+        }
         System.out.println("Hello World");
     }
 
-    public static test(String test) {
+    public static void test(String test) {
         System.out.println("Test");
     }
 }
